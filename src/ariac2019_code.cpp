@@ -405,7 +405,7 @@ int main(int argc, char* argv[])
         loop_rate.sleep();
         
         
-        //Move the robot from the first part to the ninth part
+        //Move the robot from the first part to the ninth part. move the manipulator over every part in a bin.
         int models_length =  end(cameralist[storage_location].models) - begin(cameralist[storage_location].models);
         for(int i = 0; i < models_length; i++)
         {
